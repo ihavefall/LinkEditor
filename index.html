@@ -118,7 +118,7 @@
         <ol>
             <li>Masukkan <b>Link Undangan</b> kamu di kolom pertama (sekali saja, dipakai untuk semua tamu).</li>
             <li>Masukkan semua nama tamu ke dalam kolom <b>Nama Tamu</b> — satu nama per baris. Tulis nama tamu pertama lalu tekan <i>Enter</i>, tulis nama kedua, dan seterusnya.</li>
-            <li>Pilih <b>Kata Pengantar</b> yang disediakan (Formal / Muslim / Nasrani / Hindu / Ulang Tahun). Jangan ubah tulisan dalam kurung <code>[nama]</code> dan <code>[link-undangan]</code> — itu kode yang akan diisi otomatis.</li>
+            <li>Pilih <b>Kata Pengantar</b> yang disediakan (Formal / Sangjit). Jangan ubah tulisan dalam kurung <code>[nama]</code> dan <code>[link-undangan]</code> — itu kode yang akan diisi otomatis.</li>
             <li>Klik <b>Buat Daftar Nama Tamu</b>.</li>
             <li>Untuk kirim ke WhatsApp tamu, klik tombol <b>WhatsApp</b>.</li>
             <li>Untuk kirim ke DM Instagram, klik tombol <b>TEXT</b> lalu paste ke DM tamu.</li>
@@ -162,10 +162,7 @@
 <script>
     const TEMPLATES = {
         'Formal': 'Kepada Yth. Bapak/Ibu/Saudara/i\n*[nama]*\n\nDengan hormat, kami mengundang Anda untuk hadir di hari bahagia pernikahan kami. Merupakan suatu kehormatan apabila Anda berkenan hadir.\n\nBerikut link undangan kami:\n[link-undangan]\n\nMohon maaf perihal undangan hanya dikirimkan melalui pesan ini. Terima kasih.',
-        'Muslim': 'Assalamualaikum Warahmatullahi Wabarakatuh\n\nKepada Yth.\n*[nama]*\n\nTanpa mengurangi rasa hormat, kami mengundang Bapak/Ibu/Saudara/i untuk menghadiri acara pernikahan kami. Merupakan suatu kebahagiaan bagi kami apabila berkenan hadir dan memberikan doa restu.\n\nBerikut link undangan kami:\n[link-undangan]\n\nWassalamualaikum Warahmatullahi Wabarakatuh.',
-        'Nasrani': 'Salam sejahtera dalam kasih Tuhan,\n\nKepada Yth.\n*[nama]*\n\nDengan penuh sukacita, kami mengundang Bapak/Ibu/Saudara/i untuk turut hadir dan memberkati hari pernikahan kami. Kehadiran serta doa Anda sangat berarti bagi kami.\n\nBerikut link undangan kami:\n[link-undangan]\n\nTuhan Yesus memberkati.',
-        'Hindu': 'Om Swastiastu,\n\nKepada Yth.\n*[nama]*\n\nDengan penuh kebahagiaan, kami mengundang Bapak/Ibu/Saudara/i untuk hadir dan memberikan restu pada upacara pernikahan kami. Suatu kehormatan apabila Anda berkenan hadir.\n\nBerikut link undangan kami:\n[link-undangan]\n\nOm Santih, Santih, Santih, Om.',
-        'Ulang Tahun': 'Hai *[nama]*! 🎉\n\nKamu diundang untuk merayakan hari istimewa bersama kami. Yuk, datang dan ramaikan acaranya!\n\nBerikut link undangannya:\n[link-undangan]\n\nDitunggu kehadirannya ya!'
+        'Sangjit': 'Halo Bapak/Ibu/Saudara/i,\n\nDengan penuh sukacita kami mengundang Bapak/Ibu/Saudara/i, untuk hadir dalam acara Sangjit kami.\n\nUntuk informasi lengkap mengenai waktu, lokasi, dan detail acara, silakan mengakses undangan melalui link berikut:\n[link-undangan]\n\nMerupakan kehormatan bagi kami apabila Anda dapat hadir dan berbagi kebahagiaan bersama keluarga kami.\n\nHormat kami, yang berbahagia Raynald. G. Bagy & Regina. B. Lahope'
     };
 
     const templatesEl = document.getElementById('templates');
